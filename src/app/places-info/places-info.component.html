@@ -1,0 +1,35 @@
+<div class="respective_place">
+  <div class="place_intro m-2">
+    <h4>
+      {{ dataService.placeinfo[0].place }}
+    </h4>
+    <hr />
+    <div class="imgInfo">
+      <img
+        class="placeImg me-3"
+        [src]="dataService.placeinfo[0].link"
+        alt="../"
+      />
+      {{ dataService.placeinfo[0].description }}
+    </div>
+  </div>
+  <div class="pokemons_found m-3">
+    <h5 class="found">Pokemons Found</h5>
+    <hr />
+    <div class="image">
+      <img
+        class="pokemons_found_img"
+        [src]="dataService.placeinfo[0].pokemon"
+        alt="No Pokemons Found Here"
+      />
+      <div class="catching_pokemon ms-3">
+        {{ dataService.placeinfo[0].catchpokemon }}
+      </div>
+    </div>
+    <div class="thingsToDo mt-3">
+      <h5>Things To Do</h5>
+      <hr />
+      {{ dataService.placeinfo[0].tasks }}
+    </div>
+  </div>
+</div>

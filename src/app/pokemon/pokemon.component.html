@@ -1,0 +1,30 @@
+<div class="pokedex" *ngFor="let pokemon of pokedex">
+  <mat-card class="pokeCard {{ pokemon.type1 }}">
+    <mat-card-title class="justify"><h4>Pokédex</h4></mat-card-title>
+    <hr />
+    <mat-card-subtitle class="justify">{{ pokemon.name }}</mat-card-subtitle>
+    <hr />
+    <img mat-card-lg-image class="img" [src]="pokemon.img" />
+    <hr />
+    <mat-card-content class="justify">
+      <span class="types {{ pokemon.type1 }}">{{ pokemon.type1 }}</span>
+      <span class="types {{ pokemon.type2 }}" *ngIf="pokemon.type2">
+        {{ pokemon.type2 }}
+      </span>
+    </mat-card-content>
+    <hr />
+    <mat-card-content class="justify">{{ pokemon.id }}</mat-card-content>
+    <mat-card-actions class="justify">
+      <button
+        class="btn"
+        (click)="clickBack(pokemon.id)"
+        [disabled]="pokemon.id == 1"
+      >
+        Previous
+      </button>
+      <button class="btn" (click)="clickNext(pokemon.id)">
+        Next
+      </button></mat-card-actions
+    >
+  </mat-card>
+</div>

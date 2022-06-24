@@ -1,0 +1,11 @@
+<div class="nav">
+  <ul class="ul">
+    <hr />
+    <li class="list" *ngFor="let item of navButtons">
+      <h6>
+        <a [routerLink]="item.link">{{ item.names }}</a>
+      </h6>
+      <hr />
+    </li>
+  </ul>
+</div>

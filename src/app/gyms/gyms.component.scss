@@ -1,0 +1,22 @@
+.gymInfo {
+  height: 98%;
+
+  margin: 0;
+}
+.gyms {
+  display: flex;
+}
+.gym {
+  text-align: justify;
+}
+.gymLeadersImg {
+  width: 50vw;
+  height: 60vh;
+}
+.btns {
+  list-style: upper-roman;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}

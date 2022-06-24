@@ -1,0 +1,23 @@
+<div class="gymInfo p-2">
+  <h5>GYM # {{ gyminfo.info[0].index }}</h5>
+  <hr />
+  <div class="location">
+    <div class="title">LOCATION :</div>
+    <div class="locationInfo">{{ gyminfo.info[0].location }}</div>
+  </div>
+  <div class="location">
+    <div class="title">SPACILITY :</div>
+    <div class="locationInfo">{{ gyminfo.info[0].specality }}</div>
+  </div>
+  <div class="location">
+    <div class="title">REWARD :</div>
+    <div class="locationInfo">{{ gyminfo.info[0].reward }}</div>
+  </div>
+  <div class="method">
+    <div class="title">METHOD :</div>
+    <div class="locationInfo">{{ gyminfo.info[0].method }}</div>
+  </div>
+  <div class="img">
+    <img class="image" [src]="gyminfo.info[0].img" alt="./image" />
+  </div>
+</div>

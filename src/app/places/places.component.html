@@ -1,0 +1,17 @@
+<div class="place">
+  <img class="map ms-3 mt-3" src="../../assets/Kanto_map.jpg" alt="./map" />
+
+  <ul>
+    <li
+      class="btns mt-3 ms-2"
+      *ngFor="let item of PlaceService.count; index as i"
+    >
+      <a
+        (click)="PlaceService.moreInfo(i)"
+        routerLink="/places-info"
+        class="btn"
+        >{{ item.place }}</a
+      >
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,26 @@
+<div class="gymInfo m-2">
+  <h5>Gym Leaders</h5>
+  <hr />
+  <div class="gym">
+    Pokemon FireRed and LeafGreen features the classic lineup of Gym Leaders
+    from Red and Blue. These gyms, as with all Pokemon games, are spread out
+    over the Kanto region. Each gym focuses on a specific Pokemon type, giving
+    you something to work with as you prepare your team for each challenge. Once
+    you have all eight gym badges (proof of your victory against the Leader),
+    you can take on Victory Road to go meet the Elite Four.
+  </div>
+  <div class="gyms mt-3">
+    <img
+      class="gymLeadersImg"
+      src="../../assets/gym_leaders.jpg"
+      alt="./gym Leaders"
+    />
+    <ul>
+      <li class="btns mt-2 ms-5" *ngFor="let item of gymdata.gyms; index as i">
+        <a (click)="gymdata.gymInfo(i)" routerLink="/gym-leaders" class="btn">{{
+          item.gym_leaders
+        }}</a>
+      </li>
+    </ul>
+  </div>
+</div>
