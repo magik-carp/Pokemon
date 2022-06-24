@@ -7,10 +7,10 @@ export class DataService {
   count = [
     {
       place: 'Viridian City',
-      link: '../../assets/Viridian_City.png',
+      link: './src/assets/Viridian_City.png',
       description:
         "Viridian City isn't exactly a bustling burg, but it's bigger than Pallet Town. There you'll see your first Pokémon Center, a place where you can go to restore your Pokémon to full health. You'll also see a Poké Mart, which stocks items useful to Pokémon trainers. This one has a delivery service and will need your help to make a special delivery.",
-      pokemon: '../../assets/Viridian_pokemon.jpeg',
+      pokemon: './src/assets/Viridian_pokemon.jpeg',
       catchpokemon:
         "You may want to go straight to Viridian Forest, but don't be too hasty! Route #1 was full of Pokémon that you can catch anywhere, but the area West of here, Route #22, has a few interesting finds. But don't go past the grassy area, or your rival might challenge you to a fight when you're not quite ready. You'll want to have a bunch of good Pokémon before you attempt to challenge the Viridian Forest. Spend the next few minutes tracking some down in Route #22.",
       tasks:
@@ -18,7 +18,7 @@ export class DataService {
     },
     {
       place: 'Pewter City',
-      link: '../../assets/Pewter_City.png',
+      link: './src/assets/Pewter_City.png',
       description:
         "Pewter City is where you find your first gym challenge, in which you'll be able to earn your first badge.",
       pokemon: '',
@@ -28,10 +28,10 @@ export class DataService {
     },
     {
       place: 'Cerulean City',
-      link: '../../assets/Cerulean_City.png',
+      link: './src/assets/Cerulean_City.png',
       description:
         'There is much to do in Cerulean City. You will have to battle your Rival, beat a group of trainers, stop Team Rocket from their usual mischievous deeds and of course earn another badge. The way out is blocked by a guard, who will move away after you visit Bill at his house on Route 25.',
-      pokemon: '../../assets/cerulean_pokemon.png',
+      pokemon: './src/assets/cerulean_pokemon.png',
       catchpokemon:
         "At the house west of the PokéCenter there is an old man who will trade Pokémon with you. You will get a Jynx at the same level as the Poliwhirl you have given. You won't be able to do this trade until much later in the game, after you get the Good Rod or the Super Rod.",
       tasks:
@@ -39,10 +39,10 @@ export class DataService {
     },
     {
       place: 'Vermilion City',
-      link: '../../assets/Vermilion_City.png',
+      link: './src/assets/Vermilion_City.png',
       description:
         "After the city itself, moored on the dock, is a large luxury liner, the S.S. Anne, which needs to be explored before it's possible to access this city's gym. Head to the dock and take on S.S. Anne right after checking out the city. However, you must have the S.S ticket in order to get on it (you can get it in Route 25 if you haven't gotten it yet).",
-      pokemon: '../../assets/vermilion_pokemon.jpeg',
+      pokemon: './src/assets/vermilion_pokemon.jpeg',
       catchpokemon:
         "A trade can be found in the house with the orange roof, north of the gym.'Farfetch'd, a ninja bird that beats enemies with a leek, is a solid fighter, and capable of learning Cut. Because it was traded, this particular Farfetch'd goes up levels 50% faster than normal Pokémon. Since it doesn't evolve, it really won't get much better than it is, so using for the long term isn't recommended.)",
       tasks:
@@ -50,10 +50,10 @@ export class DataService {
     },
     {
       place: 'Saffron City',
-      link: '../../assets/Saffron_City.png',
+      link: './src/assets/Saffron_City.png',
       description:
         'Saffron City is home to the Silph Company, the makers of the fabulous Silph Scope. So how did Giovanni get his paws on the Silph Scope prototype? Is the company in cahoots with Team Rocket? The only way to find out will be to use a little industrial espionage, so get your team built up strong and prepare to go on a stealth mission!',
-      pokemon: '../../assets/Saffron_pokemon.jpeg',
+      pokemon: './src/assets/Saffron_pokemon.jpeg',
       catchpokemon:
         "You won't get a badge for taking down this optional Gym, but you will get something just as good: One of two Pokémon that can be found nowhere else in the game.",
       tasks:
@@ -61,10 +61,10 @@ export class DataService {
     },
     {
       place: 'Fuchsia City',
-      link: '../../assets/Fuchsia_City.png',
+      link: './src/assets/Fuchsia_City.png',
       description:
         'Now that Team Rocket is reeling from its crushing defeat in Saffron City, you have a chance to resume your original quest: to become the greatest Pokémon trainer ever. Fuchsia City is the home of the Safari Zone, the home of some of the strangest and most powerful Pokemon in the game. Take some time to explore the city, and then... start hunting!',
-      pokemon: '../../assets/Fuchsia_pokemon.png',
+      pokemon: './src/assets/Fuchsia_pokemon.png',
       catchpokemon:
         "You may want to go straight to Viridian Forest, but don't be too hasty! Route #1 was full of Pokémon that you can catch anywhere, but the area West of here, Route #22, has a few interesting finds. But don't go past the grassy area, or your rival might challenge you to a fight when you're not quite ready. You'll want to have a bunch of good Pokémon before you attempt to challenge the Viridian Forest. Spend the next few minutes tracking some down in Route #22.",
       tasks:
@@ -72,10 +72,10 @@ export class DataService {
     },
     {
       place: 'Celadon City',
-      link: '../../assets/Celadon_City.png',
+      link: './src/assets/Celadon_City.png',
       description:
         'Celadon City is the largest city in this game. Its Poké Mart has six stories; no wonder it needs an elevator! This city holds lots of new experiences for you. Challenge a Gym Leader, do some shopping, play the slot machines, get some cool new Pokemon and thwart an evil organization! You can expect to make this city your headquarters for some time.',
-      pokemon: '../../assets/Celadon_pokemon.jpeg',
+      pokemon: './src/assets/Celadon_pokemon.jpeg',
       catchpokemon:
         "go in through the back door. Go all the way to the rooftop, where you'll find a small building. Inside you'll find a person and a Poké Ball on the table. Pick it up; it's an Eevee",
       tasks:
@@ -83,10 +83,10 @@ export class DataService {
     },
     {
       place: 'Cinnabar Island',
-      link: '../../assets/Cinnabar_Island.png',
+      link: './src/assets/Cinnabar_Island.png',
       description:
         "Cinnabar Island is an island located in the southwestern part of the Kanto region. It is home to the Cinnabar Lab and the Pokémon Mansion, as well as a gym, where you'll face leader Blaine, bearer of the Volcano Badge. However, access to the gym is at first barred.",
-      pokemon: '../../assets/cinnabar_pokemon.png',
+      pokemon: './src/assets/cinnabar_pokemon.png',
       catchpokemon:
         "You may want to go straight to Viridian Forest, but don't be too hasty! Route #1 was full of Pokémon that you can catch anywhere, but the area West of here, Route #22, has a few interesting finds. But don't go past the grassy area, or your rival might challenge you to a fight when you're not quite ready. You'll want to have a bunch of good Pokémon before you attempt to challenge the Viridian Forest. Spend the next few minutes tracking some down in Route #22.",
       tasks:
@@ -94,10 +94,10 @@ export class DataService {
     },
     {
       place: 'Lavender Town',
-      link: '../../assets/Lavender_Town.png',
+      link: './src/assets/Lavender_Town.png',
       description:
         "Lavender Town is just a stop on your journey for now. The Poké Mart here is the first to sell Great Balls and Revives, so pick some up if you want any. Heal up from your trek through Rock Tunnel and head west to Route 8 when you're ready for the next city.",
-      pokemon: '../../assets/lavender_pokemon.png',
+      pokemon: './src/assets/lavender_pokemon.png',
       catchpokemon:
         'You may want to go south of the town to find a bridge on which a SNORLAX would be resting,play the pokeflute,weaken it and catch it.',
       tasks:
@@ -115,7 +115,7 @@ export class DataService {
       location: 'Pewter City',
       specality: 'Rock-type',
       reward: 'Boulder Badge, TM39',
-      img: '../../assets/brock.png',
+      img: './src/assets/brock.png',
       method:
         "The first gym is located in Pewter City and is a Rock-type Gym. It doesn't have much of a puzzle but there is a lone trainer who you must face before taking on Brock, the leader. This gym specialises in Rock-type Pokémon, and Brock will use the attack Rock Tomb to seriously wound Pokemon like Charmander, Beedrill, and Pidgeotto. Defeat Brock to earn the Boulder Badge, which lets you use Flash outside of battle, and TM39, Rock Tomb.",
     },
@@ -124,7 +124,7 @@ export class DataService {
       location: 'Cerulean City',
       specality: 'Water-type',
       reward: 'Cascade Badge, TM03',
-      img: '../../assets/misty.png',
+      img: './src/assets/misty.png',
       method:
         "Misty's gym is a straightforward path around a pool. You can avoid the first trainer but not the second. Misty uses the starfish Pokemon, Staryu and Starmie, which will try to smack you with confusion using their signature Water Pulse. They can also use Recover to heal. After you beat Misty, you receive the Cascade Badge, which makes traded Pokemon up to Level 30 obey you, and TM03, which contains the attack Water Pulse. You can also now use Cut outside of battle.",
     },
@@ -133,7 +133,7 @@ export class DataService {
       location: 'Vermilion City',
       specality: 'Electric-type',
       reward: 'Thunder Badge, TM34',
-      img: '../../assets/serge.png',
+      img: './src/assets/serge.png',
       method:
         'Before you can enter Vermilion City gym you must use Cut to clear the tree blocking the path. Once inside, prepare to check each garbage can until you find both switches to open the electric door. The second switch is always beside the first one, but if you find the wrong one the locks reset. Lt. Surge boasts a Raichu which can hit with the move Shock Wave, a fairly strong Electric-type attack that never misses. Ground-type Pokemon like Sandshrew and Diglett cannot be affected by this move, or any other Electric-type move. The prizes for this match are the Thunder Badge and TM34 Shock Wave. You can also now use Fly outside of battle.',
     },
@@ -142,7 +142,7 @@ export class DataService {
       location: 'Celadon City',
       specality: 'Grass-type',
       reward: 'Rainbow Badge, TM19',
-      img: '../../assets/erika.png',
+      img: './src/assets/erika.png',
       method:
         "Erika's gym requires Cut to navigate! Her Pokemon use the self-healing attack Giga Drain, which is also handed out via TM19 once the match is won. Also given to you are the Rainbow Badge, which makes any traded Pokemon up to Level 50 obey, and the ability to use Strength outside of battle.",
     },
@@ -151,7 +151,7 @@ export class DataService {
       location: 'Fuchsia City',
       specality: 'Poison-type',
       reward: 'Soul Badge, TM06',
-      img: '../../assets/koga.png',
+      img: './src/assets/koga.png',
       method:
         "The fifth Pokemon gym is a maze of invisible walls. The lighter tiles are actually invisible walls you must travel through to find Koga, the Gym Leader. The gym trainers are peculiar, using a mix of Ground, Psychic, and Poison-types. Koga's team however only uses Poison-types. While Muk can be hit with Ground-type moves, Koga's other Pokemon can't as they have the Levitate ability. Koga's Pokemon use a move called Toxic which causes a unique type of poisoning where damage exponentially increases each turn. The prize for this match is TM06 Toxic as well as the Soul Badge. After this match you can use Surf, which can be found in the Safari Zone.",
     },
@@ -160,7 +160,7 @@ export class DataService {
       location: 'Saffron City',
       specality: 'Psychic-type',
       reward: 'Marsh Badge, TM04  ',
-      img: '../../assets/serina.png',
+      img: './src/assets/serina.png',
       method:
         "Only accessible after the Rockets have been defeated, Sabrina's gym is a network of warp panels. Not all the trainers have to be fought, but many of them do in order to reach all these panels. Sabrina's team itself uses three pure Psychic-types and a Bug/Poison-type, Venomoth. Kadabra and Alakazam both have bad defenses so try to use attacks that fall under the physical type categories. Be careful though as they can do significant damage with their high Special Attack. As a reward for winning you get the Marsh Badge, while makes any Pokemon up to Level 70 obey you and lets you use the move Rock Smash outside of battle. The TM prize for this match is TM04 Calm Mind, a move which increases Special Attack and Special Defense one stage.",
     },
@@ -169,7 +169,7 @@ export class DataService {
       location: 'Cinnabar Island',
       specality: 'Fire-type',
       reward: 'Volcano Badge, TM38',
-      img: '../../assets/blane.png',
+      img: './src/assets/blane.png',
       method:
         "After finding the hidden key to the Cinnabar Gym in Cinnabar Mansion, you'll be able to take a crack at Blaine's Fire-type Pokemon Gym. Each room has a quiz machine that asks you a question. If you answer it wrong or don't want to do it at all, you'll have to fight the trainer to open the door. Blaine uses several strong Fire-types that know the move Fire Blast. The prize for this match is TM38 Fire Blast, inflicts massive damage and can burn your Pokemon, and the penultimate Volcano Badge, which allows you to use Waterfall outside of battle.",
     },
@@ -178,7 +178,7 @@ export class DataService {
       location: 'Viridian City',
       specality: 'Ground-type',
       reward: ' Earth Badge, TM26',
-      img: '../../assets/giovani.png',
+      img: './src/assets/giovani.png',
       method:
         "After you have collected the seven other Badges and completed the quest in the Sevii Islands, the word is that Viridian City's Gym Leader has returned, and who should it be but the Team Rocket Boss Giovanni. The spinning tile maze here is similar to the one in the Celadon City Rocket Hideout. Giovanni's team now uses only Ground-types, and powerful ones to boot. When you defeat him you earn the Earth Badge, which allows you to control a Pokemon at any Level, as well as access to the Indigo Plateau west of Viridian City. You also get the TM for the strong Ground-type move Earthquake.",
     },
